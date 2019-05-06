@@ -31,7 +31,6 @@ exiftool -csv /path/to/folder/images > wanted/path/of/file.csv
 
 You can also only write out the embedded XMP metadata in an XML file.
 
-
 ```bash
 exiftool -xmp -b /path/to/image/file > wanted/path/of/file.xml
 ```

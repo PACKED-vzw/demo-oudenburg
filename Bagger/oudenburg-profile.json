@@ -1,66 +1,65 @@
 {
-    "dcterms:identifier": {
+    "identifier": {
         "fieldRequired": true,
         "defaultValue": "Collectienummmer"
     },
 
-    "dcterms:type": {
-        "fieldRequired": true,
+    "type": {
         "defaultValue": "Collection",
         "requiredValue": "Collection",
         "valueList": ["Collection"]
     },
 
-    "dcterms:title": {
+    "title": {
         "defaultValue": "Collectienaam"
     },
 
-    "dcterms:description": {
+    "description": {
         "defaultValue": "Collectiebeschrijving"
     },
 
-    "cld:itemFormat": {
+    "itemFormat": {
         "defaultValue": "Materialen"
     },
 
-    "dcterms:extent": {
+    "extent": {
         "defaultValue": "Omvang"
     },
 
-    "dcterms:spatial": {
+    "spatial": {
         "defaultValue": "Geografisch trefwoord"
     },
 
-    "dcterms:provenance": {
+    "provenance": {
         "defaultValue": "Eigendomsgeschiedenis"
     },
 
-    "dcterms:relation label='owner'": {
+    "relation label='owner'": {
         "defaultValue": "Eigenaar"
     },
 
-    "dc:creator": {
+    "creator": {
         "defaultValue": "Verzamelaar"
     },
 
-    "dcterms:created": {
+    "created": {
         "defaultValue": "Datering verzameling"
     },
 
-    "cld:isLocatedAt": {
+    "isLocatedAt": {
         "defaultValue": "Bewaarplaats"
     },
 
-    "dcterms:accrualMethod": {
+    "accrualMethod": {
         "defaultValue": "Verweringsmethode",
         "valueList": ["Aankoop", "Bruikleen", "Schenking", "In bewaargeving"]
     },
 
-    "dcterms:accrualPolicy": {
+    "accrualPolicy": {
         "defaultValue": "Motivering m.b.t. het verzamelbeleid"
     },
 
-    "dc:rights": {
+    "rights": {
         "defaultValue": "Rechthebbenden"
     }
 }

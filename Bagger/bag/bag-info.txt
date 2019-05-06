@@ -1,22 +1,19 @@
+extent: 10 foto's
+accrualPolicy: 
+provenance: Eigendomsgeschiedenis
+itemFormat: papier
+relation label='owner': Nastasia Vanderperren
+Bagging-Date: 2019-05-06
+creator: Nastasia Vanderperren
+created: 1965-1990
+description: Mooie collectie
+rights: Rechthebbenden
+accrualMethod: Aankoop
 Bag-Size: 384.1 MB
 Profile Name: oudenburg
-dcterms: provenance: Eigendomsgeschiedenis
-Bagging-Date: 2019-05-06
-cld: isLocatedAt: Stadsarchief Oudenburg
-dc: creator: Nastasia Vanderperren
+spatial: Merendree
+title: Collectie met foto's
+identifier: 12
+type: Collection
+isLocatedAt: Stadsarchief Oudenburg
 Payload-Oxum: 402722438.12
-dcterms:provenance: Eigendomsgeschiedenis
-dcterms:type: Collection
-cld:isLocatedAt: Bewaarplaats
-dcterms:extent: Omvang
-dc:creator: Verzamelaar
-dcterms:title: Collectienaam
-dcterms:created: Datering verzameling
-dc:rights: Rechthebbenden
-cld:itemFormat: Materialen
-dcterms:identifier: D10000
-dcterms:spatial: Geografisch trefwoord
-dcterms:relation label='owner': Eigenaar
-dcterms:accrualMethod: Aankoop
-dcterms:description: Collectiebeschrijving
-dcterms:accrualPolicy: Motivering m.b.t. het verzamelbeleid

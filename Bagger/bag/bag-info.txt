@@ -1,0 +1,19 @@
+Profile Name: oudenburg
+extent: 10 foto's
+identifier: D1987
+creator: Nastasia Vanderperren
+isLocatedAt: Stadsarchief Oudenburg
+created: 1965-1990
+description: mooie collectie
+accrualPolicy: 
+type: Collection
+title: zekere collectie
+relation label='owner': Nastasia Vanderperren
+itemFormat: papier
+accrualMethod: Bruikleen
+provenance: was en is nog steeds van Nastasia 
+rights: 
+spatial: 
+Payload-Oxum: 402722438.12
+Bagging-Date: 2019-05-06
+Bag-Size: 384.1 MB

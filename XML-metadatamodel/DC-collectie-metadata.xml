@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcds:descriptionSet
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:cld="http://purl.org/cld/terms/"
+    xmlsns:dcds="http://www.dublincore.org/schemas/xmls/2008/09/01/dc-ds-xml/dcds.xsd">
+    <dcds:description>
+        <dcterms:identifier>[Collectienummer]</dcterms:identifier>
+        <dcterms:type>Collection</dcterms:type>
+        <dcterms:title>[Collectienaam]</dcterms:title>
+
+        <dcterms:description>[Collectiebeschrijving]</dcterms:description>
+        <cld:itemFormat>[Materialen]</cld:itemFormat>
+        <dcterms:extent>[Omvang]</dcterms:extent>
+        <dcterms:spatial>[Geografisch trefwoord]</dcterms:spatial>
+        
+        <dcterms:provenance>[Eigendomsgeschiedenis]</dcterms:provenance>
+        <dcterms:relation label="owner">Eigenaar</dcterms:relation>
+        <dc:creator>verzamelaar</dc:creator>
+        <dcterms:created>datering verzameling</dcterms:created>
+        <cld:isLocatedAt>Bewaarplaats</cld:isLocatedAt>
+
+        <dcterms:accrualMethod>Methode verwerving</dcterms:accrualMethod>
+        <dcterms:accrualPolicy>Motivering mbt Verzamelbeleid</dcterms:accrualPolicy>
+        
+        <dc:rights>Rechthebbenden</dc:rights>
+    </dcds:description>
+</dcds:descriptionSet>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcds:descriptionSet
+xmlns:dcterms="http://purl.org/dc/terms/"
+      xmlsns:dcds="http://www.dublincore.org/schemas/xmls/2008/09/01/dc-ds-xml/dcds.xsd">
+    <dcds:description>
+        <dcterms:identifier>[Inventarisnummer]</dcterms:identifier>
+    <dcterms:type>PhysicalObject</dcterms:type>
+        <dcterms:hasFormat>[Fotonummer]</dcterms:hasFormat>
+        <dcterms:title>[Titel]</dcterms:title>
+        <dcterms:description>[Omschrijving]</dcterms:description>
+        <dcterms:created>[BegindatumJaar]-[EinddatumJaar]</dcterms:created>
+        <dcterms:spatial name="[Straat], [Gemeente]" north="Locatie/Lat" east="Locatie/Lon"/>
+        <dcterms:medium label="redactioneleVorm">Redactionele Vorm</dcterms:medium>
+        <dcterms:medium label="color">Kleur</dcterms:medium>
+        <dcterms:extent label="dimensions">Formaat</dcterms:extent>
+        <dcterms:extent label="condition">Staat</dcterms:extent>
+        <dcterms:provenance>Eigenaar</dcterms:provenance>
+        <dcterms:isReferencedBy>Publicatie</dcterms:isReferencedBy>
+        <dcterms:relation label="oralSource">Informatiebron</dcterms:relation>
+        <dcterms:description label="internalNotes">Opmerkingen</dcterms:description>    
+    </dcds:description>
+</dcds:descriptionSet>

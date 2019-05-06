@@ -34,3 +34,9 @@ You can also only write out the embedded XMP metadata in an XML file.
 ```bash
 exiftool -xmp -b /path/to/image/file > wanted/path/of/file.xml
 ```
+
+Or, you can even only write out the DC metadata by using following command:
+
+```bash
+exiftool -xmp-dc:* /path/to/folder/or/file
+```

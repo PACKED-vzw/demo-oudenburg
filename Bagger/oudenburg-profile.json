@@ -1,0 +1,66 @@
+{
+    "dcterms:identifier": {
+        "fieldRequired": true,
+        "defaultValue": "Collectienummmer"
+    },
+
+    "dcterms:type": {
+        "fieldRequired": true,
+        "defaultValue": "Collection",
+        "requiredValue": "Collection",
+        "valueList": ["Collection"]
+    },
+
+    "dcterms:title": {
+        "defaultValue": "Collectienaam"
+    },
+
+    "dcterms:description": {
+        "defaultValue": "Collectiebeschrijving"
+    },
+
+    "cld:itemFormat": {
+        "defaultValue": "Materialen"
+    },
+
+    "dcterms:extent": {
+        "defaultValue": "Omvang"
+    },
+
+    "dcterms:spatial": {
+        "defaultValue": "Geografisch trefwoord"
+    },
+
+    "dcterms:provenance": {
+        "defaultValue": "Eigendomsgeschiedenis"
+    },
+
+    "dcterms:relation label='owner'": {
+        "defaultValue": "Eigenaar"
+    },
+
+    "dc:creator": {
+        "defaultValue": "Verzamelaar"
+    },
+
+    "dcterms:created": {
+        "defaultValue": "Datering verzameling"
+    },
+
+    "cld:isLocatedAt": {
+        "defaultValue": "Bewaarplaats"
+    },
+
+    "dcterms:accrualMethod": {
+        "defaultValue": "Verweringsmethode",
+        "valueList": ["Aankoop", "Bruikleen", "Schenking", "In bewaargeving"]
+    },
+
+    "dcterms:accrualPolicy": {
+        "defaultValue": "Motivering m.b.t. het verzamelbeleid"
+    },
+
+    "dc:rights": {
+        "defaultValue": "Rechthebbenden"
+    }
+}

@@ -1,3 +1,4 @@
 *.jpg
 !originele_bestanden/*.jpg
 *.xlsx
+!Bagger/bag/data/*.jpg

@@ -6,7 +6,6 @@
 
     "type": {
         "defaultValue": "Collection",
-        "requiredValue": "Collection",
         "valueList": ["Collection"]
     },
 
@@ -51,8 +50,7 @@
     },
 
     "accrualMethod": {
-        "defaultValue": "Verweringsmethode",
-        "valueList": ["Aankoop", "Bruikleen", "Schenking", "In bewaargeving"]
+        "defaultValue": "Motivering m.b.t. het verzamelbeleid"
     },
 
     "accrualPolicy": {

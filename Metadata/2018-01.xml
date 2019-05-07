@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcds:description xmlns:dcds="http://www.dublincore.org/schemas/xmls/2008/09/01/dc-ds-xml/dcds.xsd" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:cld="http://purl.org/cld/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<dcterms:identifier>2018-01</dcterms:identifier>
+	<dcterms:type>collection</dcterms:type>
+	<dcterms:title>Schenking Bonte Frans</dcterms:title>
+	<dcterms:description />
+	<cld:itemFormat>Betreft oude klasfoto's uit Oudenburg uit de jaren 1930, beelden van de sterrenstoet en beelden van de winkel van de familie Vanlitsenburg.</cld:itemFormat>
+	<dcterms:extent>14 objecten</dcterms:extent>
+	<dcterms:spatial>Oudenburg</dcterms:spatial>
+	<dcterms:provenance>De collectie is gevormd door Frans Bonte. Hij heeft de objecten verzameld door schenking of aankoop</dcterms:provenance>
+	<dcterms:relation label="owner">Stadsarchief Oudenburg</dcterms:relation>
+	<dc:creator>Bonte, Frans</dc:creator>
+	<dcterms:created>1904-1967</dcterms:created>
+	<cld:isLocatedAt>Bij de schenker</cld:isLocatedAt>
+	<dcterms:AccuralMethod>Schenking</dcterms:AccuralMethod>
+	<dcterms:accrualPolicy />
+	<dc:rights />
+	<dcterms:accessRights />
+</dcds:description>

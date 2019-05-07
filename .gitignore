@@ -3,3 +3,5 @@
 *.xlsx
 !Bagger/bag/data/*.jpg
 *.zip
+*.eml
+*CSV2DC

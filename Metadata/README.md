@@ -12,4 +12,4 @@ CSV2DC wordt gebruikt om een CSV om te zetten naar dublin core XML.
 sh csv2cd.sh -cp .:lib/* CSV2Metadata -i path/to/csv.csv -o path/to/output/folder -c dcterms:identifier -r description -p dcds -n http://www.dublincore.org/schemas/xmls/2008/09/01/dc-ds-xml/dcds.xsd
 ```
 
-Hiermee maak je een Dublin Core XML met dcds:description als root element en met het inventarisnummer als bestandsnaam.
+Hiermee maak je een Dublin Core XML met `dcds:description` als root element en met het inventarisnummer als bestandsnaam.

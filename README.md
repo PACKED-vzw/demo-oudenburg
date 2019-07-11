@@ -1,4 +1,4 @@
-# Demo Oudenburg
+# Workflow Oudenburg
 
 Deze repository bewaart code en voorbeelden voor de workflow van de gemeentes Koekelare, Oudenburg en Zedelgem voor de duurzame bewaring van de beelden.
 

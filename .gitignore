@@ -3,3 +3,4 @@
 !Bagger/bag/data/*.jpg
 *.zip
 *.eml
+Metadata/CSV2DC/*

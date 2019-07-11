@@ -6,7 +6,7 @@ Vul het [sjabloon](https://docs.google.com/spreadsheets/d/1XTvK0ADQ-RcQyZlVXnV1E
 
 ## 2. Commando
 
-CSV2DC wordt gebruikt om een CSV om te zetten naar dublin core XML. 
+Een aangepaste versie van [CSV2DC](https://github.com/PACKED-vzw/CSV2DC) wordt gebruikt om een CSV om te zetten naar dublin core XML.
 
 ```bash
 sh csv2cd.sh -cp .:lib/* CSV2Metadata -i path/to/csv.csv -o path/to/output/folder -c dcterms:identifier -r description -p dcds -n http://www.dublincore.org/schemas/xmls/2008/09/01/dc-ds-xml/dcds.xsd

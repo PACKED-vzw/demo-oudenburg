@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- -->
+<!--oudenburg-record.xml is een voorbeeld xml waarin 1 record 1 object beschrijft en in 1 xml gecodeerd zit. Deze xml bevat de metadata over 1 enkel erfgoedobject.
+    Elementen zonder prefix behoren tot de oudenburg-dc namespace. Die wordt gevalideerd door de oudenburg-record.xsd die mee in de map van deze xml zit. 
+    De oudenburg-record.xsd valideert enkel de <record> nodes van het record.
+    De rest van de nodes wordt gevalideerd door de dcterms.xsd. De metadata is echter veel fijnmaziger dan dcterms.xsd toelaat. Daarom zijn verfijningen opgenomen als labels in de tekststrings. 
+    Zie dcterms spatial, medium, extent, relation en description. 
+
+    Wrapper voor 1 record dat 1 object beschrijft.-->
 <record 
     xmlns="http://example.org/oudenburg-dc"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns:dc=" http://purl.org/dc/elements/1.1/"
     xmlns:dcterms="http://purl.org/dc/terms/"
-    xmlns:marcrel="http://www.loc.gov/loc.terms/relators/"
-    xmlns:cld="http://purl.org/cld/terms/"
     xsi:schemaLocation="
-    http://example.org/oudenburg-dc oudenburg-record.xsd
-    http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd 
-    http://purl.org/dc/terms/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd">
-        <dcterms:identifier>[Collectienummer]</dcterms:identifier>
-        <dcterms:type>Collection</dcterms:type>
-        <dcterms:title>[Collectienaam]</dcterms:title>
-        <dcterms:description>[Collectiebeschrijving]</dcterms:description>
-        <cld:itemFormat>[Materialen]</cld:itemFormat>
-        <dcterms:extent>[Omvang]</dcterms:extent>
-        <dcterms:spatial>[Geografisch trefwoord]</dcterms:spatial>
-        <dcterms:provenance>[Eigendomsgeschiedenis]</dcterms:provenance>
-        <marcrel:own>Eigenaar</marcrel:own>
-        <dc:creator>verzamelaar</dc:creator>
-        <dcterms:created>datering verzameling</dcterms:created>
-        <cld:isLocatedAt>Bewaarplaats</cld:isLocatedAt>
-        <dcterms:accrualMethod>Methode verwerving</dcterms:accrualMethod>
-        <dcterms:accrualPolicy>Motivering mbt Verzamelbeleid</dcterms:accrualPolicy>
-        <dcterms:rightsHolder>Rechthebbenden</dcterms:rightsHolder>
-        <dcterms:accessRights>Beperkingen toegang</dcterms:accessRights>
-        
+        http://example.org/oudenburg-dc oudenburg-record.xsd 
+        http://purl.org/dc/terms/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd">
+        <dcterms:identifier>[Inventarisnummer]</dcterms:identifier>
+        <dcterms:type>PhysicalObject</dcterms:type>
+        <dcterms:hasFormat>[Fotonummer]</dcterms:hasFormat>
+        <dcterms:title>[Titel]</dcterms:title>
+        <dcterms:description>[Omschrijving]</dcterms:description>
+        <dcterms:created>[Beginjaar]-[Eindjaar]</dcterms:created>
+        <dcterms:spatial>[Straat], [Gemeente]</dcterms:spatial>
+        <dcterms:spatial>Lon:[51.1791107256885], Lat:[3.03144834559732]</dcterms:spatial>
+        <dcterms:medium>Redactionele vorm:[redactionele vorm]</dcterms:medium>
+        <dcterms:medium>Kleur:[kleur]</dcterms:medium>
+        <dcterms:extent>Afmetingen:[Omvang]</dcterms:extent>
+        <dcterms:extent>Conditie:[Conditie]</dcterms:extent>
+        <dcterms:provenance>[Eigenaar]</dcterms:provenance>
+        <dcterms:isReferencedBy>[Publicatie]</dcterms:isReferencedBy>
+        <dcterms:relation>Mondelinge bron:[informatiebron]</dcterms:relation>
+        <dcterms:description>Opmerkingen:[opmerkingen]</dcterms:description>
 </record>
-
 
